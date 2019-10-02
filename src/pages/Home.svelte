@@ -22,6 +22,10 @@
             <p>{post.createdAt}</p>
             <p>{post.body}</p>
           </div>
+          <div class="action">
+            <a href="#">Edit</a>
+            <a href="#">DELETE</a>
+          </div>
         </div>
       </div>
     {/each}
