@@ -8,8 +8,30 @@
     const res = await fetch(apiBaseUrl + "/posts");
     posts = await res.json();
   });
+
+  editPost = post => {
+    console.log(post);
+  };
+
+  deletePost = post => {
+    console.log(post);
+  };
 </script>
 
+<style>
+  .delete-btn {
+    color: red;
+  }
+  .card .card-content .card-title {
+    margin-bottom: 0;
+  }
+  p.timestamp {
+    color: #999;
+    margin-bottom: 10px;
+  }
+</style>
+
+<div class="delete-btn" />
 <div class="row">
   {#if posts.length === 0}
     <h2>Loading posts...</h2>
@@ -19,12 +41,14 @@
         <div class="card">
           <div class="card-content">
             <p class="card-title">{post.title}</p>
-            <p>{post.createdAt}</p>
+            <p class="timestamp">{post.createdAt}</p>
             <p>{post.body}</p>
           </div>
           <div class="card-action">
-            <a href="#">EDIT</a>
-            <a href="#" class="delete-btn">DELETE</a>
+            <a href="#" on:click={() => editPost(post)}>EDIT</a>
+            <a href="#" class="delete-btn" on:click={() => deletePost(post)}>
+              DELETE
+            </a>
           </div>
         </div>
       </div>
