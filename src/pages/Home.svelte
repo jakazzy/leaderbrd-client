@@ -22,9 +22,9 @@
             <p>{post.createdAt}</p>
             <p>{post.body}</p>
           </div>
-          <div class="action">
-            <a href="#">Edit</a>
-            <a href="#">DELETE</a>
+          <div class="card-action">
+            <a href="#">EDIT</a>
+            <a href="#" class="delete-btn">DELETE</a>
           </div>
         </div>
       </div>
