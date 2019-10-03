@@ -9,13 +9,13 @@
     posts = await res.json();
   });
 
-  editPost = post => {
+  function editPost(post) {
     console.log(post);
-  };
+  }
 
-  deletePost = post => {
-    console.log(post);
-  };
+  function deletePost(id) {
+    console.log("deleting post with id " + id);
+  }
 </script>
 
 <style>
@@ -46,7 +46,7 @@
           </div>
           <div class="card-action">
             <a href="#" on:click={() => editPost(post)}>EDIT</a>
-            <a href="#" class="delete-btn" on:click={() => deletePost(post)}>
+            <a href="#" class="delete-btn" on:click={() => deletePost(post.id)}>
               DELETE
             </a>
           </div>
