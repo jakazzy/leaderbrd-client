@@ -6,7 +6,7 @@ const HomePage = () => {
   const [search, setSearch] = useState('search query');
   return (
     <div>
-      <SearchBar search={search} onChange={setSearch} />
+      <SearchBar search={search} handleChange={(value) => setSearch(value)} />
       <Card />
     </div>
   );
