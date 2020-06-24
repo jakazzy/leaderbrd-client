@@ -27,6 +27,17 @@ function App() {
           </li>
         </ul>
       </div>
+      <div className="px-6 py-4">
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          tag #1
+        </span>
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          tag #2
+        </span>
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          tag #3
+        </span>
+      </div>
     </div>
   );
 }
