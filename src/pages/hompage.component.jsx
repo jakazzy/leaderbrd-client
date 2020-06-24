@@ -1,12 +1,12 @@
-// import React from 'react';
-// import HeaderComponent from '../components/header.component';
+import React from 'react';
+import Card from '../components/card.component';
 
-// function HomePage() {
-//   return (
-//     <div>
-//       <HeaderComponent />
-//     </div>
-//   );
-// }
+function HomePage() {
+  return (
+    <div>
+      <Card />
+    </div>
+  );
+}
 
-// export default HomePage;
+export default HomePage;

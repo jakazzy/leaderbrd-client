@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './components/header.component';
-import Card from './components/card.component';
+import HomePage from './pages/hompage.component';
 
 function App() {
   return (
     <div>
       <Header />
-      <Card />
+      <HomePage />
     </div>
   );
 }
