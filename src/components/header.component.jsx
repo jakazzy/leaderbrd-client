@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Header() {
+const Header = () => {
   return (
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-red-900 p-6">
@@ -57,6 +57,6 @@ function Header() {
       </nav>
     </div>
   );
-}
+};
 
 export default Header;
