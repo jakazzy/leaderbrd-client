@@ -248,5 +248,3 @@ const Table = () => {
 };
 
 export default Table;
-
-// Ref: https://tailwindcomponents.com/component/table-responsive-with-filters

@@ -43,6 +43,5 @@ const Card = () => {
     </div>
   );
 };
-// Reference: https://tailwindcomponents.com/component/profile-card
 
 export default Card;
