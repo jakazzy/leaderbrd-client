@@ -2,50 +2,6 @@ import React from 'react';
 
 const Card = () => {
   return (
-    // <div>
-    //   <div className="max-w-sm rounded-lg border overflow-hidden shadow-lg">
-    //     <img
-    //       src="https://source.unsplash.com/random"
-    //       alt="alternative images"
-    //       className="w-full "
-    //     />
-    //     <div className="flex justify-center -mt-8">
-    //       <img
-    //         src="https://source.unsplash.com/random"
-    //         alt="alternative images"
-    //         className="rounded-full border-solid border-white border-2 -mt-3 h-10"
-    //       />
-    //     </div>
-    //     <div className="px-6 py-4">
-    //       <div className="font-bold text-purple-500 text-lg ">
-    //         Ella Agyemang
-    //       </div>
-    //       <div>
-    //         <span>Uname: </span>
-    //         goldsky
-    //       </div>
-    //       <div>
-    //         <span>Score: </span>
-    //         300
-    //       </div>
-    //       <div>
-    //         <span>Track:</span>
-    //         Frontend
-    //       </div>
-    //     </div>
-    //     <div className="px-6 py-4">
-    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-    //         twitter
-    //       </span>
-    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-    //         LinkedIn
-    //       </span>
-    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-    //         Github
-    //       </span>
-    //     </div>
-    //   </div>
-    // </div>
     <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
       <img
         alt=""
@@ -87,5 +43,6 @@ const Card = () => {
     </div>
   );
 };
+// Reference: https://tailwindcomponents.com/component/profile-card
 
 export default Card;
