@@ -5,9 +5,6 @@ const Table = () => {
     <div className="flex items-center justify-center">
       <div className="container mx-auto px-4 sm:px-8">
         <div className="py-8">
-          <div>
-            <h2 className="text-2xl font-semibold leading-tight">Users</h2>
-          </div>
           <div className="my-2 flex sm:flex-row flex-col">
             <div className="flex flex-row mb-1 sm:mb-0">
               <div className="relative">

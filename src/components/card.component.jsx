@@ -2,7 +2,7 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+    <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3 ml-8 ">
       <img
         alt=""
         src="https://source.unsplash.com/random/400x200"
