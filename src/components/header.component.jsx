@@ -5,14 +5,14 @@ const Header = () => {
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-red-900 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <span className="font-semibold text-xl tracking-tight">
+          <span className="font-semibold text-xl tracking-tight hover:text-orange-400">
             Leader Board
           </span>
         </div>
         <div className="block lg:hidden">
           <button
             type="button"
-            className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+            className="flex items-center px-3 py-2 border rounded text-white border-white-400 hover:text-orange-400 hover:border-orange-400"
           >
             <svg
               className="fill-current h-3 w-3"
@@ -28,19 +28,19 @@ const Header = () => {
           <div className="text-sm lg:flex-grow">
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-400 mr-4"
             >
               Login
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-400 mr-4"
             >
               Score
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
+              className="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-400"
             >
               Track
             </a>
@@ -48,7 +48,7 @@ const Header = () => {
           <div>
             <a
               href="/link"
-              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
+              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-orange-400 hover:text-orange-400 mt-4 lg:mt-0"
             >
               Upload file
             </a>
