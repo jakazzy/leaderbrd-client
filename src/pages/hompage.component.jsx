@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Card from '../components/card.component';
+import CardList from '../components/card-list.component';
 import SearchBar from '../components/searchbar.component';
 import Table from '../components/table.component';
 
@@ -15,7 +15,7 @@ const HomePage = () => {
         handleChange={(value) => setSearch(value)}
         handleSearch={(e) => handleSearch(e)}
       />
-      <Card />
+      <CardList />
       <Table />
     </div>
   );
