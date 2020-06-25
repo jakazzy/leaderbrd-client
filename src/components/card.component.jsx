@@ -2,43 +2,87 @@ import React from 'react';
 
 const Card = () => {
   return (
-    <div>
-      <div className="max-w-sm rounded overflow-hidden shadow-lg">
+    // <div>
+    //   <div className="max-w-sm rounded-lg border overflow-hidden shadow-lg">
+    //     <img
+    //       src="https://source.unsplash.com/random"
+    //       alt="alternative images"
+    //       className="w-full "
+    //     />
+    //     <div className="flex justify-center -mt-8">
+    //       <img
+    //         src="https://source.unsplash.com/random"
+    //         alt="alternative images"
+    //         className="rounded-full border-solid border-white border-2 -mt-3 h-10"
+    //       />
+    //     </div>
+    //     <div className="px-6 py-4">
+    //       <div className="font-bold text-purple-500 text-lg ">
+    //         Ella Agyemang
+    //       </div>
+    //       <div>
+    //         <span>Uname: </span>
+    //         goldsky
+    //       </div>
+    //       <div>
+    //         <span>Score: </span>
+    //         300
+    //       </div>
+    //       <div>
+    //         <span>Track:</span>
+    //         Frontend
+    //       </div>
+    //     </div>
+    //     <div className="px-6 py-4">
+    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+    //         twitter
+    //       </span>
+    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+    //         LinkedIn
+    //       </span>
+    //       <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+    //         Github
+    //       </span>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="rounded rounded-t-lg overflow-hidden shadow max-w-xs my-3">
+      <img
+        alt=""
+        src="https://source.unsplash.com/random/400x200"
+        className="w-full"
+      />
+      <div className="flex justify-center -mt-8">
         <img
-          src="https://source.unsplash.com/random"
-          alt="alternative images"
-          className="w-full"
+          src="https://i.imgur.com/8Km9tLL.jpg"
+          alt=""
+          className="rounded-full border-solid border-white border-2 -mt-3"
         />
-        <div className="px-6 py-4">
-          <div className="font-bold text-purple-500 text-xl mb-2">
-            Photo by John Doe
-          </div>
-          <ul>
-            <li>
-              <strong>Views:</strong>
-              4000
-            </li>
-            <li>
-              <strong>Downloads:</strong>
-              300
-            </li>
-            <li>
-              <strong>Likes:</strong>
-              400
-            </li>
-          </ul>
+      </div>
+      <div className="text-center px-3 pb-6 pt-2">
+        <h3 className="text-black text-sm bold font-sans">Olivia Dunham</h3>
+        <p className="mt-2 font-sans font-light text-grey-dark">@oligirl</p>
+      </div>
+      <div className="flex justify-center pb-3 text-grey-dark">
+        <div className="text-center mr-3 border-r pr-3">
+          <h2>FE</h2>
+          <span>Track</span>
         </div>
-        <div className="px-6 py-4">
-          <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-            tag #1
-          </span>
-          <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-            tag #2
-          </span>
-          <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
-            tag #3
-          </span>
+        <div className="text-center">
+          <h2>34</h2>
+          <span>Scores</span>
         </div>
+      </div>
+      <div className="px-6 py-4 flex justify-center">
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          twitter
+        </span>
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          LinkedIn
+        </span>
+        <span className="iline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
+          Github
+        </span>
       </div>
     </div>
   );
