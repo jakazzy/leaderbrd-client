@@ -8,7 +8,7 @@ const HomePage = () => {
     event.preventDefault();
   };
   return (
-    <div>
+    <div className="container mx-auto mt-5">
       <SearchBar
         search={search}
         handleChange={(value) => setSearch(value)}
