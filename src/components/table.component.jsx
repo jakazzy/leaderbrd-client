@@ -24,7 +24,7 @@ const Table = () => {
                 </div>
               </div>
               <div className="relative">
-                <select className="h-full rounded-r border-t sm:rounded-r-none sm:border-r-0 border-r border-b block appearance-none w-full bg-white border-gray-400 text-gray-700 py-2 px-4 pr-8 leading-tight focus:outline-none focus:border-l focus:border-r focus:bg-white focus:border-gray-500">
+                <select className="h-full rounded-r border border-t sm:rounded-r sm:border-r-1 border-r border-b block appearance-none w-full bg-white border-gray-400 text-gray-700 py-2 px-4 pr-8 leading-tight focus:outline-none focus:border-l focus:border-r focus:bg-white focus:border-gray-500">
                   <option>All</option>
                   <option>Design</option>
                   <option>Backend</option>
@@ -41,7 +41,7 @@ const Table = () => {
                 </div>
               </div>
             </div>
-            <div className="block relative">
+            {/* <div className="block relative">
               <span className="h-full absolute inset-y-0 left-0 flex items-center pl-2">
                 <svg
                   viewBox="0 0 24 24"
@@ -54,7 +54,7 @@ const Table = () => {
                 placeholder="Search"
                 className="appearance-none rounded-r rounded-l sm:rounded-l-none border border-gray-400 border-b block pl-8 pr-6 py-2 w-full bg-white text-sm placeholder-gray-400 text-gray-700 focus:bg-white focus:placeholder-gray-600 focus:text-gray-700 focus:outline-none"
               />
-            </div>
+            </div> */}
           </div>
           <div className="-mx-4 sm:-mx-8 px-4 sm:px-8 py-4 overflow-x-auto">
             <div className="inline-block min-w-full shadow rounded-lg overflow-hidden">
