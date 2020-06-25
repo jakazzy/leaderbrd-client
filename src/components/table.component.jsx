@@ -2,7 +2,7 @@ import React from 'react';
 
 const Table = () => {
   return (
-    <div className="antialiased font-sans bg-gray-200 h-screen overflow-hidden flex items-center justify-center">
+    <div className="flex items-center justify-center">
       <div className="container mx-auto px-4 sm:px-8">
         <div className="py-8">
           <div>

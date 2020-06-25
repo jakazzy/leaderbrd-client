@@ -9,7 +9,7 @@ const HomePage = () => {
     event.preventDefault();
   };
   return (
-    <div className="container mx-auto mt-5">
+    <div className="container mx-auto mt-5 font-sans  h-screen overflow-hidden ">
       <SearchBar
         search={search}
         handleChange={(value) => setSearch(value)}
