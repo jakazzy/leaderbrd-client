@@ -11,8 +11,7 @@ const Card = () => {
       <div className="border shadow">
         <div className="flex justify-center -mt-8">
           <img
-            // src="https://i.imgur.com/8Km9tLL.jpg"
-            src="https://unsplash.com/photos/J1OScm_uHUQ.jpg"
+            src="https://i.imgur.com/8Km9tLL.jpg"
             alt=""
             className="rounded-full border-solid border-white border-2 -mt-3"
           />

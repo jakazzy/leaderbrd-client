@@ -74,17 +74,17 @@ const Table = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Vera Carpenter
+                            Vera Gyansah
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p className="text-gray-900 whitespace-no-wrap">Admin</p>
+                      <p className="text-gray-900 whitespace-no-wrap">@vee</p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap">
-                        Jan 21, 2020
+                        Frontend
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -93,7 +93,7 @@ const Table = () => {
                           aria-hidden
                           className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                         />
-                        <span className="relative">Activo</span>
+                        <span className="relative">300</span>
                       </span>
                     </td>
                   </tr>
@@ -109,17 +109,19 @@ const Table = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Blake Bowman
+                            Blake Agyemang
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p className="text-gray-900 whitespace-no-wrap">Editor</p>
+                      <p className="text-gray-900 whitespace-no-wrap">
+                        @skyblu
+                      </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap">
-                        Jan 01, 2020
+                        Backend
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -128,7 +130,7 @@ const Table = () => {
                           aria-hidden
                           className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
                         />
-                        <span className="relative">Activo</span>
+                        <span className="relative">500</span>
                       </span>
                     </td>
                   </tr>
@@ -144,17 +146,17 @@ const Table = () => {
                         </div>
                         <div className="ml-3">
                           <p className="text-gray-900 whitespace-no-wrap">
-                            Dana Moore
+                            Diana Moore
                           </p>
                         </div>
                       </div>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                      <p className="text-gray-900 whitespace-no-wrap">Editor</p>
+                      <p className="text-gray-900 whitespace-no-wrap">@queen</p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap">
-                        Jan 10, 2020
+                        Designer
                       </p>
                     </td>
                     <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
@@ -163,7 +165,7 @@ const Table = () => {
                           aria-hidden
                           className="absolute inset-0 bg-orange-200 opacity-50 rounded-full"
                         />
-                        <span className="relative">Suspended</span>
+                        <span className="relative">200</span>
                       </span>
                     </td>
                   </tr>
@@ -185,11 +187,11 @@ const Table = () => {
                       </div>
                     </td>
                     <td className="px-5 py-5 bg-white text-sm">
-                      <p className="text-gray-900 whitespace-no-wrap">Admin</p>
+                      <p className="text-gray-900 whitespace-no-wrap">@blu</p>
                     </td>
                     <td className="px-5 py-5 bg-white text-sm">
                       <p className="text-gray-900 whitespace-no-wrap">
-                        Jan 18, 2020
+                        Frontend
                       </p>
                     </td>
                     <td className="px-5 py-5 bg-white text-sm">
@@ -198,7 +200,7 @@ const Table = () => {
                           aria-hidden
                           className="absolute inset-0 bg-red-200 opacity-50 rounded-full"
                         />
-                        <span className="relative">Inactive</span>
+                        <span className="relative">100</span>
                       </span>
                     </td>
                   </tr>
