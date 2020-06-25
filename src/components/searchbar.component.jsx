@@ -13,7 +13,7 @@ const SearchBar = ({ search, handleChange, handleSearch }) => {
         />
         <button
           type="submit"
-          className="flex-shrink-0 bg-red-900 hover:bg-red-700 border-red-900 hover:border-red-700 text-sm border-4 text-white py-2 px-8 rounded"
+          className="flex-shrink-0 bg-red-900 border-red-900 hover:border-orange-400 text-sm border-4 text-white hover:text-orange-400 py-2 px-8 rounded"
         >
           Search
         </button>
