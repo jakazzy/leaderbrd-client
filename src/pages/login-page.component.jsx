@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FormInput from '../components/form-input';
+import FormInput from '../components/form-input.component';
 import CustomButton from '../components/custom-button.component';
 
 const LoginPage = () => {
@@ -15,16 +15,16 @@ const LoginPage = () => {
         <FormInput
           type="email"
           forName="email"
-          idName="email"
-          placeholderText="email@gmail.com"
-          labelName="email"
+          id="email"
+          placeholder="email@gmail.com"
+          label="email"
         />
         <FormInput
           type="password"
           forName="pwd"
-          idName="pwd"
-          placeholderText="............"
-          labelName="password"
+          id="pwd"
+          placeholder="............"
+          label="password"
         />
         <Link
           className="inline-block align-baseline text-sm text-gray-600 hover:text-gray-800"

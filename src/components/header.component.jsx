@@ -50,12 +50,18 @@ const Header = () => {
             </a>
           </div>
           <div>
-            <Link
-              to="/upload"
-              className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-orange-400 hover:text-orange-400 mt-4 lg:mt-0"
+            <label
+              htmlFor="upload-field"
+              className="block cursor-pointer  text-center w-32 text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-orange-400 hover:text-orange-400 mt-4 lg:mt-0"
             >
               Upload file
-            </Link>
+              <input
+                type="file"
+                id="upload-field"
+                multiple
+                className="hidden "
+              />
+            </label>
           </div>
         </div>
       </nav>
