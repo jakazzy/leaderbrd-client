@@ -15,16 +15,16 @@ const LoginPage = () => {
         <FormInput
           type="email"
           forName="email"
-          idName="email"
-          placeholderText="email@gmail.com"
-          labelName="email"
+          id="email"
+          placeholder="email@gmail.com"
+          label="email"
         />
         <FormInput
           type="password"
           forName="pwd"
-          idName="pwd"
-          placeholderText="............"
-          labelName="password"
+          id="pwd"
+          placeholder="............"
+          label="password"
         />
         <Link
           className="inline-block align-baseline text-sm text-gray-600 hover:text-gray-800"
