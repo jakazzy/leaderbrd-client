@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FormInput from '../components/form-input';
+import FormInput from '../components/form-input.component';
 import CustomButton from '../components/custom-button.component';
 
 const LoginPage = () => {
