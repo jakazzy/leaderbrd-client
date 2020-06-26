@@ -2,11 +2,15 @@ import React from 'react';
 
 const FormInput = () => {
   return (
-    <div>
-      <label htmlFor="email">
+    <div className="">
+      <label
+        htmlFor="email"
+        className="block text-gray-700 text-sm font-semibold mb-2"
+      >
         {' '}
-        email
+        Email
         <input
+          className="block w-11/12 h-10"
           type="email"
           name="email"
           id="email"

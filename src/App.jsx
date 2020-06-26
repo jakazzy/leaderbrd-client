@@ -7,7 +7,7 @@ import UploadPage from './pages/upload-page.component';
 
 function App() {
   return (
-    <div className="antialiased" bg-gray-200 text-gray-900>
+    <div className="antialiased bg-gray-200 text-gray-900 box-border">
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />

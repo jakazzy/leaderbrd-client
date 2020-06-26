@@ -6,9 +6,12 @@ const Header = () => {
     <div>
       <nav className="flex items-center justify-between flex-wrap bg-red-900 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <span className="font-semibold text-xl tracking-tight hover:text-orange-400">
+          <Link
+            className="font-semibold text-xl tracking-tight hover:text-orange-400"
+            to="/"
+          >
             Leader Board
-          </span>
+          </Link>
         </div>
         <div className="block lg:hidden">
           <button
