@@ -8,25 +8,23 @@ const LoginPage = () => {
     <div className="container mx-auto h-screen">
       <form className="w-1/2 mx-auto rounded border border-gray-400 shadow-lg my-20 px-8">
         <div>
-          <h1 className=" text-2xl font-bold">Admin Sign in</h1>
-          <div>
-            <span className="text-gray-600 text-sm mr-2">
-              Dont have an account?
-            </span>
-            <span className="text-gray-700 text-sm font-semibold">Sign up</span>
-          </div>
+          <h1 className=" text-2xl text-center text-gray-700 font-bold mb-2">
+            Admin Log in
+          </h1>
         </div>
         <FormInput
-          for="email"
-          id="email"
-          placeholder="email@gmail.com"
-          label="email"
+          type="email"
+          forName="email"
+          idName="email"
+          placeholderText="email@gmail.com"
+          labelName="email"
         />
         <FormInput
-          for="pwd"
-          id="pwd"
-          placeholder="............"
-          label="password"
+          type="password"
+          forName="pwd"
+          idName="pwd"
+          placeholderText="............"
+          labelName="password"
         />
         <Link
           className="inline-block align-baseline text-sm text-gray-600 hover:text-gray-800"
