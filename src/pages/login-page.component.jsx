@@ -10,7 +10,9 @@ const LoginPage = () => {
         <div>
           <h1 className=" text-2xl font-bold">Admin Sign in</h1>
           <div>
-            <span className="text-gray-600 text-sm">Dont have an account?</span>
+            <span className="text-gray-600 text-sm mr-2">
+              Dont have an account?
+            </span>
             <span className="text-gray-700 text-sm font-semibold">Sign up</span>
           </div>
         </div>
